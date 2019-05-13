@@ -7,6 +7,8 @@ Node.js Logger with MongoDB support
 
  The info messages will be rendered in **green**, and error ones will be in **red**.
  You should change the MongoDB connection URL. The part in the options - collection: 'logs' - is the collection name where the logs will be kept.
+ 
+  There are 4 transports in the sample code. These are **MongoDB**, **File** (error.log for error logs), **File** (combined.log for both error and info logs), and **Console**. It automatically generates the files, and you can change the file names if you'd like to.
 
 ### Usage
 ```javascript
