@@ -6,7 +6,7 @@ Node.js Logger with MongoDB support
 * npm install winston-mongodb
 
  The info messages will be rendered in **green**, and error ones will be in **red**.
-
+ You should change the MongoDB connection URL. The part in the options - collection: 'logs' - is the collection name where the logs will be kept.
 
 ### Usage
 ```javascript
